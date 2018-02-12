@@ -1,0 +1,223 @@
+2018-02-11 14:28:14.370 INFO  com.howie.pay.Main.Application Line:48  - Starting Application on sh716d with PID 7740 (E:\J.Howie\workspace\UnionPay\target\classes started by jianghongyang in E:\J.Howie\workspace\UnionPay)
+2018-02-11 14:28:14.370 INFO  com.howie.pay.Main.Application Line:663 - The following profiles are active: dev
+2018-02-11 14:28:15.402 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:581 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@740cae06: startup date [Sun Feb 11 14:28:15 CST 2018]; root of context hierarchy
+2018-02-11 14:28:16.530 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Line:317 - Loading XML bean definitions from class path resource [spring-context-dubbo.xml]
+2018-02-11 14:28:17.017 INFO  com.alibaba.dubbo.common.logger.LoggerFactory Line:58  - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-02-11 14:28:18.766 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:88  - Tomcat initialized with port(s): 8080 (http)
+2018-02-11 14:28:18.782 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+2018-02-11 14:28:18.814 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+2018-02-11 14:28:18.981 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_pay] Line:179 - Initializing Spring embedded WebApplicationContext
+2018-02-11 14:28:18.981 INFO  org.springframework.web.context.ContextLoader Line:276 - Root WebApplicationContext: initialization completed in 3579 ms
+2018-02-11 14:28:19.175 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-11 14:28:19.175 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-11 14:28:19.175 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-11 14:28:19.175 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-11 14:28:19.175 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-11 14:28:19.866 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/]}" onto public java.lang.String com.howie.pay.Main.Application.greeting()
+2018-02-11 14:28:19.873 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-02-11 14:28:19.874 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-02-11 14:28:19.876 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-02-11 14:28:19.878 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-11 14:28:19.880 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-11 14:28:20.030 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-02-11 14:28:20.409 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter Line:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@740cae06: startup date [Sun Feb 11 14:28:15 CST 2018]; root of context hierarchy
+2018-02-11 14:28:20.448 INFO  org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter Line:303 - Adding welcome page: class path resource [templates/index.html]
+2018-02-11 14:28:20.459 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:341 - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-02-11 14:28:20.467 INFO  com.howie.pay.Main.Application Line:32  - 自定义静态资源目录,这只是个Demo,生产肯定不会暴露
+2018-02-11 14:28:20.471 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:354 - Mapped URL path [/cert/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-11 14:28:20.472 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-11 14:28:20.472 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-11 14:28:20.529 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-11 14:28:21.646 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2018-02-11 14:28:21.664 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:341 - Starting beans in phase 2147483647
+2018-02-11 14:28:21.664 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:147 - Context refreshed
+2018-02-11 14:28:21.756 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:150 - Found 4 custom documentation plugin(s)
+2018-02-11 14:28:21.812 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-02-11 14:28:21.832 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-02-11 14:28:21.841 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-02-11 14:28:21.850 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-02-11 14:28:22.110 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:186 - Tomcat started on port(s): 8080 (http)
+2018-02-11 14:28:22.138 INFO  com.howie.pay.Main.Application Line:57  - Started Application in 9.288 seconds (JVM running for 10.112)
+2018-02-11 14:28:22.138 INFO  com.howie.pay.Main.Application Line:42  - 支付项目启动 
+2018-02-11 14:30:46.642 INFO  com.howie.pay.Main.Application Line:48  - Starting Application on sh716d with PID 6496 (E:\J.Howie\workspace\UnionPay\target\classes started by jianghongyang in E:\J.Howie\workspace\UnionPay)
+2018-02-11 14:30:46.658 INFO  com.howie.pay.Main.Application Line:663 - The following profiles are active: dev
+2018-02-11 14:30:48.100 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:581 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@740cae06: startup date [Sun Feb 11 14:30:48 CST 2018]; root of context hierarchy
+2018-02-11 14:30:49.040 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Line:317 - Loading XML bean definitions from class path resource [spring-context-dubbo.xml]
+2018-02-11 14:30:49.314 INFO  com.alibaba.dubbo.common.logger.LoggerFactory Line:58  - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-02-11 14:30:50.790 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:88  - Tomcat initialized with port(s): 8080 (http)
+2018-02-11 14:30:50.814 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+2018-02-11 14:30:50.817 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+2018-02-11 14:30:51.005 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_pay] Line:179 - Initializing Spring embedded WebApplicationContext
+2018-02-11 14:30:51.006 INFO  org.springframework.web.context.ContextLoader Line:276 - Root WebApplicationContext: initialization completed in 2906 ms
+2018-02-11 14:30:51.162 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-11 14:30:51.168 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-11 14:30:51.169 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-11 14:30:51.170 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-11 14:30:51.170 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-11 14:30:51.914 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/]}" onto public java.lang.String com.howie.pay.Main.Application.greeting()
+2018-02-11 14:30:51.923 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-02-11 14:30:51.925 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-02-11 14:30:51.926 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-02-11 14:30:51.929 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-11 14:30:51.929 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-11 14:30:52.118 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-02-11 14:30:52.377 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter Line:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@740cae06: startup date [Sun Feb 11 14:30:48 CST 2018]; root of context hierarchy
+2018-02-11 14:30:52.416 INFO  org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter Line:303 - Adding welcome page: class path resource [templates/index.html]
+2018-02-11 14:30:52.430 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:341 - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-02-11 14:30:52.442 INFO  com.howie.pay.Main.Application Line:32  - 自定义静态资源目录,这只是个Demo,生产肯定不会暴露
+2018-02-11 14:30:52.448 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:354 - Mapped URL path [/cert/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-11 14:30:52.448 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-11 14:30:52.448 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-11 14:30:52.495 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-11 14:30:53.289 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2018-02-11 14:30:53.303 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:341 - Starting beans in phase 2147483647
+2018-02-11 14:30:53.303 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:147 - Context refreshed
+2018-02-11 14:30:53.341 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:150 - Found 4 custom documentation plugin(s)
+2018-02-11 14:30:53.436 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-02-11 14:30:53.466 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-02-11 14:30:53.482 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-02-11 14:30:53.491 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-02-11 14:30:53.629 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:186 - Tomcat started on port(s): 8080 (http)
+2018-02-11 14:30:53.636 INFO  com.howie.pay.Main.Application Line:57  - Started Application in 8.103 seconds (JVM running for 9.233)
+2018-02-11 14:30:53.637 INFO  com.howie.pay.Main.Application Line:42  - 支付项目启动 
+2018-02-11 14:32:30.625 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_pay] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-11 14:32:30.625 INFO  org.springframework.web.servlet.DispatcherServlet Line:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-11 14:32:30.650 INFO  org.springframework.web.servlet.DispatcherServlet Line:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-02-11 14:32:53.886 INFO  com.howie.pay.Main.Application Line:48  - Starting Application on sh716d with PID 5720 (E:\J.Howie\workspace\UnionPay\target\classes started by jianghongyang in E:\J.Howie\workspace\UnionPay)
+2018-02-11 14:32:53.892 INFO  com.howie.pay.Main.Application Line:663 - The following profiles are active: dev
+2018-02-11 14:32:54.629 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:581 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13c3c1e1: startup date [Sun Feb 11 14:32:54 CST 2018]; root of context hierarchy
+2018-02-11 14:32:55.738 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Line:317 - Loading XML bean definitions from class path resource [spring-context-dubbo.xml]
+2018-02-11 14:32:56.065 INFO  com.alibaba.dubbo.common.logger.LoggerFactory Line:58  - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-02-11 14:32:57.691 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:88  - Tomcat initialized with port(s): 8080 (http)
+2018-02-11 14:32:57.717 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+2018-02-11 14:32:57.720 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+2018-02-11 14:32:57.997 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_pay] Line:179 - Initializing Spring embedded WebApplicationContext
+2018-02-11 14:32:57.998 INFO  org.springframework.web.context.ContextLoader Line:276 - Root WebApplicationContext: initialization completed in 3370 ms
+2018-02-11 14:32:58.515 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-11 14:32:58.520 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-11 14:32:58.531 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-11 14:32:58.531 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-11 14:32:58.532 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-11 14:32:59.461 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/]}" onto public java.lang.String com.howie.pay.Main.Application.greeting()
+2018-02-11 14:32:59.470 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-02-11 14:32:59.471 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-02-11 14:32:59.472 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-02-11 14:32:59.475 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-11 14:32:59.476 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-11 14:32:59.832 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-02-11 14:33:00.059 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter Line:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13c3c1e1: startup date [Sun Feb 11 14:32:54 CST 2018]; root of context hierarchy
+2018-02-11 14:33:00.112 INFO  org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter Line:303 - Adding welcome page: class path resource [templates/index.html]
+2018-02-11 14:33:00.134 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:341 - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-02-11 14:33:00.164 INFO  com.howie.pay.Main.Application Line:32  - 自定义静态资源目录,这只是个Demo,生产肯定不会暴露
+2018-02-11 14:33:00.168 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:354 - Mapped URL path [/cert/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-11 14:33:00.169 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-11 14:33:00.169 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-11 14:33:00.233 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-11 14:33:01.317 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2018-02-11 14:33:01.334 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:341 - Starting beans in phase 2147483647
+2018-02-11 14:33:01.335 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:147 - Context refreshed
+2018-02-11 14:33:01.437 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:150 - Found 4 custom documentation plugin(s)
+2018-02-11 14:33:01.526 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-02-11 14:33:01.596 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-02-11 14:33:01.615 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-02-11 14:33:01.636 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-02-11 14:33:01.737 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:186 - Tomcat started on port(s): 8080 (http)
+2018-02-11 14:33:01.746 INFO  com.howie.pay.Main.Application Line:57  - Started Application in 8.595 seconds (JVM running for 11.323)
+2018-02-11 14:33:01.747 INFO  com.howie.pay.Main.Application Line:42  - 支付项目启动 
+2018-02-11 14:33:34.821 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_pay] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-11 14:33:34.821 INFO  org.springframework.web.servlet.DispatcherServlet Line:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-11 14:33:34.867 INFO  org.springframework.web.servlet.DispatcherServlet Line:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 44 ms
+2018-02-11 14:36:33.464 INFO  com.howie.pay.Main.Application Line:48  - Starting Application on sh716d with PID 5360 (E:\J.Howie\workspace\UnionPay\target\classes started by jianghongyang in E:\J.Howie\workspace\UnionPay)
+2018-02-11 14:36:33.469 INFO  com.howie.pay.Main.Application Line:663 - The following profiles are active: dev
+2018-02-11 14:36:33.929 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:581 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13c3c1e1: startup date [Sun Feb 11 14:36:33 CST 2018]; root of context hierarchy
+2018-02-11 14:36:34.903 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Line:317 - Loading XML bean definitions from class path resource [spring-context-dubbo.xml]
+2018-02-11 14:36:35.214 INFO  com.alibaba.dubbo.common.logger.LoggerFactory Line:58  - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-02-11 14:36:36.423 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:88  - Tomcat initialized with port(s): 8080 (http)
+2018-02-11 14:36:36.438 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+2018-02-11 14:36:36.440 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+2018-02-11 14:36:36.603 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_pay] Line:179 - Initializing Spring embedded WebApplicationContext
+2018-02-11 14:36:36.604 INFO  org.springframework.web.context.ContextLoader Line:276 - Root WebApplicationContext: initialization completed in 2676 ms
+2018-02-11 14:36:36.833 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-11 14:36:36.838 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-11 14:36:36.840 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-11 14:36:36.843 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-11 14:36:36.844 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-11 14:36:37.587 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/]}" onto public java.lang.String com.howie.pay.Main.Application.greeting()
+2018-02-11 14:36:37.587 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-02-11 14:36:37.587 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-02-11 14:36:37.587 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-02-11 14:36:37.587 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-11 14:36:37.587 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-11 14:36:37.882 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-02-11 14:36:38.065 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter Line:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13c3c1e1: startup date [Sun Feb 11 14:36:33 CST 2018]; root of context hierarchy
+2018-02-11 14:36:38.109 INFO  org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter Line:303 - Adding welcome page: class path resource [templates/index.html]
+2018-02-11 14:36:38.135 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:341 - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-02-11 14:36:38.152 INFO  com.howie.pay.Main.Application Line:32  - 自定义静态资源目录,这只是个Demo,生产肯定不会暴露
+2018-02-11 14:36:38.158 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:354 - Mapped URL path [/cert/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-11 14:36:38.158 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-11 14:36:38.159 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-11 14:36:38.229 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-11 14:36:39.060 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2018-02-11 14:36:39.068 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:341 - Starting beans in phase 2147483647
+2018-02-11 14:36:39.069 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:147 - Context refreshed
+2018-02-11 14:36:39.107 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:150 - Found 4 custom documentation plugin(s)
+2018-02-11 14:36:39.187 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-02-11 14:36:39.219 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-02-11 14:36:39.234 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-02-11 14:36:39.250 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-02-11 14:36:39.316 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:186 - Tomcat started on port(s): 8080 (http)
+2018-02-11 14:36:39.316 INFO  com.howie.pay.Main.Application Line:57  - Started Application in 6.499 seconds (JVM running for 7.048)
+2018-02-11 14:36:39.316 INFO  com.howie.pay.Main.Application Line:42  - 支付项目启动 
+2018-02-11 14:36:55.455 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_pay] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-11 14:36:55.456 INFO  org.springframework.web.servlet.DispatcherServlet Line:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-11 14:36:55.479 INFO  org.springframework.web.servlet.DispatcherServlet Line:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2018-02-11 14:41:23.657 INFO  com.howie.pay.Main.Application Line:48  - Starting Application on sh716d with PID 7788 (E:\J.Howie\workspace\UnionPay\target\classes started by jianghongyang in E:\J.Howie\workspace\UnionPay)
+2018-02-11 14:41:23.660 INFO  com.howie.pay.Main.Application Line:663 - The following profiles are active: dev
+2018-02-11 14:41:24.087 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:581 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@496bc455: startup date [Sun Feb 11 14:41:24 CST 2018]; root of context hierarchy
+2018-02-11 14:41:24.863 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Line:317 - Loading XML bean definitions from class path resource [spring-context-dubbo.xml]
+2018-02-11 14:41:25.119 INFO  com.alibaba.dubbo.common.logger.LoggerFactory Line:58  - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-02-11 14:41:26.010 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:88  - Tomcat initialized with port(s): 8080 (http)
+2018-02-11 14:41:26.026 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+2018-02-11 14:41:26.026 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+2018-02-11 14:41:26.152 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_pay] Line:179 - Initializing Spring embedded WebApplicationContext
+2018-02-11 14:41:26.153 INFO  org.springframework.web.context.ContextLoader Line:276 - Root WebApplicationContext: initialization completed in 2066 ms
+2018-02-11 14:41:26.293 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-11 14:41:26.299 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-11 14:41:26.300 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-11 14:41:26.300 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-11 14:41:26.300 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-11 14:41:27.132 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/]}" onto public java.lang.String com.howie.pay.Main.Application.greeting()
+2018-02-11 14:41:27.139 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-02-11 14:41:27.141 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-02-11 14:41:27.142 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-02-11 14:41:27.145 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-11 14:41:27.146 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-11 14:41:27.283 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-02-11 14:41:27.423 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter Line:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@496bc455: startup date [Sun Feb 11 14:41:24 CST 2018]; root of context hierarchy
+2018-02-11 14:41:27.452 INFO  org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter Line:303 - Adding welcome page: class path resource [templates/index.html]
+2018-02-11 14:41:27.472 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:341 - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-02-11 14:41:27.486 INFO  com.howie.pay.Main.Application Line:32  - 自定义静态资源目录,这只是个Demo,生产肯定不会暴露
+2018-02-11 14:41:27.492 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:354 - Mapped URL path [/cert/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-11 14:41:27.493 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-11 14:41:27.494 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-11 14:41:27.537 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-11 14:41:28.195 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2018-02-11 14:41:28.202 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:341 - Starting beans in phase 2147483647
+2018-02-11 14:41:28.203 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:147 - Context refreshed
+2018-02-11 14:41:28.227 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:150 - Found 4 custom documentation plugin(s)
+2018-02-11 14:41:28.261 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-02-11 14:41:28.287 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-02-11 14:41:28.309 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-02-11 14:41:28.323 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-02-11 14:41:28.383 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:186 - Tomcat started on port(s): 8080 (http)
+2018-02-11 14:41:28.391 INFO  com.howie.pay.Main.Application Line:57  - Started Application in 5.277 seconds (JVM running for 5.913)
+2018-02-11 14:41:28.392 INFO  com.howie.pay.Main.Application Line:42  - 支付项目启动 
+2018-02-11 14:41:31.737 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_pay] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-11 14:41:31.738 INFO  org.springframework.web.servlet.DispatcherServlet Line:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-11 14:41:31.764 INFO  org.springframework.web.servlet.DispatcherServlet Line:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-02-11 14:50:40.113 INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Line:125 - Application shutdown requested.
+2018-02-11 14:50:40.113 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:982 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@496bc455: startup date [Sun Feb 11 14:41:24 CST 2018]; root of context hierarchy
+2018-02-11 14:50:40.114 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:356 - Stopping beans in phase 2147483647
+2018-02-11 14:50:40.114 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:449 - Unregistering JMX-exposed beans on shutdown
+2018-02-11 14:50:40.192 INFO  com.alibaba.dubbo.config.AbstractConfig Line:58  -  [DUBBO] Run shutdown hook now., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-02-11 14:50:40.193 INFO  com.alibaba.dubbo.registry.support.AbstractRegistryFactory Line:58  -  [DUBBO] Close all registries [], dubbo version: 2.8.4, current host: 127.0.0.1
