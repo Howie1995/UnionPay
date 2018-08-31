@@ -1,4 +1,4 @@
-package com.howie.pay.WXUtils;
+package com.howie.pay.wxUtils;
 import java.io.File;
 import java.io.FileInputStream;
 import java.security.KeyStore;
@@ -16,7 +16,7 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 import org.springframework.util.ResourceUtils;
 
-import com.howie.pay.Constants.Constants;
+import com.howie.pay.constants.Constants;
 /**
  * 退款认证
  * @author hongyang.jiang

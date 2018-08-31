@@ -1,4 +1,4 @@
-package com.howie.pay.AliUtils;
+package com.howie.pay.aliUtils;
 import com.alipay.api.AlipayClient;
 import com.alipay.api.DefaultAlipayClient;
 import com.alipay.demo.trade.config.Configs;

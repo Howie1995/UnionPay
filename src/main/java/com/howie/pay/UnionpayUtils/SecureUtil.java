@@ -13,7 +13,7 @@
  *   xshu       2014-05-28     报文加密解密等操作的工具类
  * =============================================================================
  */
-package com.howie.pay.UnionpayUtils;
+package com.howie.pay.unionpayUtils;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

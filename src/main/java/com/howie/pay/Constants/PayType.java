@@ -1,4 +1,4 @@
-package com.howie.pay.Constants;
+package com.howie.pay.constants;
 /**
  * 支付类型
  * @author hongyang.jiang

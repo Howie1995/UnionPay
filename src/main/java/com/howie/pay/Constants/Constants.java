@@ -1,4 +1,4 @@
-package com.howie.pay.Constants;
+package com.howie.pay.constants;
 
 import org.springframework.util.ClassUtils;
 

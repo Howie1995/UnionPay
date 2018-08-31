@@ -1,4 +1,4 @@
-package com.howie.pay.WXUtils;
+package com.howie.pay.wxUtils;
 
 /**
  * 微信用户信息

@@ -1,4 +1,4 @@
-package com.howie.pay.ServiceImpl;
+package com.howie.pay.serviceImpl;
 
 import java.util.Map;
 import java.util.SortedMap;
@@ -12,15 +12,15 @@ import org.springframework.beans.factory.annotation.Value;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.alipay.demo.trade.utils.ZxingUtils;
-import com.howie.pay.Constants.Constants;
-import com.howie.pay.DTO.InfoDTO;
-import com.howie.pay.AliUtils.CommonUtil;
-import com.howie.pay.Service.IWeixinPayService;
-import com.howie.pay.WXUtils.ClientCustomSSL;
-import com.howie.pay.WXUtils.ConfigUtil;
-import com.howie.pay.WXUtils.HttpUtil;
-import com.howie.pay.WXUtils.PayCommonUtil;
-import com.howie.pay.WXUtils.XMLUtil;
+import com.howie.pay.aliUtils.CommonUtil;
+import com.howie.pay.constants.Constants;
+import com.howie.pay.dto.InfoDTO;
+import com.howie.pay.service.IWeixinPayService;
+import com.howie.pay.wxUtils.ClientCustomSSL;
+import com.howie.pay.wxUtils.ConfigUtil;
+import com.howie.pay.wxUtils.HttpUtil;
+import com.howie.pay.wxUtils.PayCommonUtil;
+import com.howie.pay.wxUtils.XMLUtil;
 
 @Service
 public class WeixinPayServiceImpl implements IWeixinPayService {

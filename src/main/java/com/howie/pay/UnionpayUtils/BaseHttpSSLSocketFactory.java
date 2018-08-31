@@ -13,7 +13,7 @@
  *   xshu       2014-05-28     SSLSocket 链接工具类(用于https)
  * =============================================================================
  */
-package com.howie.pay.UnionpayUtils;
+package com.howie.pay.unionpayUtils;
 
 import java.io.IOException;
 import java.net.InetAddress;

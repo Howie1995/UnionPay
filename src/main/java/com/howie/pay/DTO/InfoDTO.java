@@ -1,4 +1,4 @@
-package com.howie.pay.DTO;
+package com.howie.pay.dto;
 
 public class InfoDTO {
 	private static final long serialVersionUID = 1L;

@@ -1,5 +1,5 @@
-package com.howie.pay.Service;
-import com.howie.pay.DTO.InfoDTO;
+package com.howie.pay.service;
+import com.howie.pay.dto.InfoDTO;
 /**
  * 扫码支付以及手机H5支付
  * @author hongyang.jiang

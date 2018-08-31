@@ -1,4 +1,4 @@
-package com.howie.pay.Controller;
+package com.howie.pay.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -22,9 +22,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.alipay.api.AlipayApiException;
 import com.alipay.api.internal.util.AlipaySignature;
 import com.alipay.demo.trade.config.Configs;
-import com.howie.pay.Constants.Constants;
-import com.howie.pay.DTO.InfoDTO;
-import com.howie.pay.Service.IAliPayService;
+import com.howie.pay.constants.Constants;
+import com.howie.pay.dto.InfoDTO;
+import com.howie.pay.service.IAliPayService;
 
 
 

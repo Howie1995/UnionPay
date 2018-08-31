@@ -13,7 +13,7 @@
  *   xshu       2014-05-28       HTTP通信工具类
  * =============================================================================
  */
-package com.howie.pay.UnionpayUtils;
+package com.howie.pay.unionpayUtils;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
@@ -35,7 +35,8 @@ import javax.net.ssl.HttpsURLConnection;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.howie.pay.UnionpayUtils.BaseHttpSSLSocketFactory.TrustAnyHostnameVerifier;
+
+import com.howie.pay.unionpayUtils.BaseHttpSSLSocketFactory.TrustAnyHostnameVerifier;
 public class HttpClient {
 	private static final Logger logger = LoggerFactory.getLogger(HttpClient.class);
 	/**

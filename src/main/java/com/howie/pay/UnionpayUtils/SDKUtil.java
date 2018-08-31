@@ -13,7 +13,7 @@
  *   xshu       2014-05-28      MPI工具类
  * =============================================================================
  */
-package com.howie.pay.UnionpayUtils;
+package com.howie.pay.unionpayUtils;
 
 import java.io.UnsupportedEncodingException;
 import java.util.HashMap;

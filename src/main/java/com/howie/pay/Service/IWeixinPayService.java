@@ -1,6 +1,6 @@
-package com.howie.pay.Service;
+package com.howie.pay.service;
 
-import com.howie.pay.DTO.InfoDTO;
+import com.howie.pay.dto.InfoDTO;
 
 public interface IWeixinPayService {
 	/**

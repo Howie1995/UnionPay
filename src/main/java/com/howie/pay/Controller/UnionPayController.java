@@ -1,4 +1,4 @@
-package com.howie.pay.Controller;
+package com.howie.pay.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -20,11 +20,11 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.howie.pay.Constants.PayWay;
-import com.howie.pay.DTO.InfoDTO;
-import com.howie.pay.Service.IUnionPayService;
-import com.howie.pay.UnionpayUtils.AcpService;
-import com.howie.pay.UnionpayUtils.SDKConstants;
+import com.howie.pay.constants.PayWay;
+import com.howie.pay.dto.InfoDTO;
+import com.howie.pay.service.IUnionPayService;
+import com.howie.pay.unionpayUtils.AcpService;
+import com.howie.pay.unionpayUtils.SDKConstants;
 /**
  * 银联支付
  */

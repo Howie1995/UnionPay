@@ -1,4 +1,4 @@
-package com.howie.pay.Controller;
+package com.howie.pay.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.howie.pay.AliUtils.DateUtil;
+import com.howie.pay.aliUtils.DateUtil;
 
 @Api(tags = "支付后台")
 @Controller

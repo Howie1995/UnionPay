@@ -1,4 +1,4 @@
-package com.howie.pay.AliUtils;
+package com.howie.pay.aliUtils;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;

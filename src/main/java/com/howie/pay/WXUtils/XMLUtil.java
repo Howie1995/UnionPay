@@ -1,4 +1,4 @@
-package com.howie.pay.WXUtils;
+package com.howie.pay.wxUtils;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

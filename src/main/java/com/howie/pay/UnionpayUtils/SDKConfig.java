@@ -13,7 +13,7 @@
  *   xshu       2014-05-28       MPI基本参数工具类
  * =============================================================================
  */
-package com.howie.pay.UnionpayUtils;
+package com.howie.pay.unionpayUtils;
 
 import java.io.BufferedReader;
 import java.io.File;

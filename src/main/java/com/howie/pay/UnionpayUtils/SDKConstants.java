@@ -13,7 +13,7 @@
  *   xshu       2014-05-28       MPI插件包常量定义
  * =============================================================================
  */
-package com.howie.pay.UnionpayUtils;
+package com.howie.pay.unionpayUtils;
 
 public class SDKConstants {
 

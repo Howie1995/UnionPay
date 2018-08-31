@@ -1,4 +1,4 @@
-package com.howie.pay.Controller;
+package com.howie.pay.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -25,13 +25,13 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.howie.pay.Constants.Constants;
-import com.howie.pay.DTO.InfoDTO;
-import com.howie.pay.Service.IWeixinPayService;
-import com.howie.pay.WXUtils.ConfigUtil;
-import com.howie.pay.WXUtils.HttpUtil;
-import com.howie.pay.WXUtils.PayCommonUtil;
-import com.howie.pay.WXUtils.XMLUtil;
+import com.howie.pay.constants.Constants;
+import com.howie.pay.dto.InfoDTO;
+import com.howie.pay.service.IWeixinPayService;
+import com.howie.pay.wxUtils.ConfigUtil;
+import com.howie.pay.wxUtils.HttpUtil;
+import com.howie.pay.wxUtils.PayCommonUtil;
+import com.howie.pay.wxUtils.XMLUtil;
 
 /**
  * 微信支付

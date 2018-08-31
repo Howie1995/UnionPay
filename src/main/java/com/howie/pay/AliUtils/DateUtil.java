@@ -1,4 +1,4 @@
-package com.howie.pay.AliUtils;
+package com.howie.pay.aliUtils;
 import java.sql.Timestamp;
 import java.text.DateFormat;
 import java.text.ParseException;

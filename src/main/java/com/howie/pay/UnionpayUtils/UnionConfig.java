@@ -1,4 +1,4 @@
-package com.howie.pay.UnionpayUtils;
+package com.howie.pay.unionpayUtils;
 
 import java.io.BufferedReader;
 import java.io.File;

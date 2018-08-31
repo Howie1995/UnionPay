@@ -13,7 +13,7 @@
  *   xshu       2014-05-28       证书工具类.
  * =============================================================================
  */
-package com.howie.pay.UnionpayUtils;
+package com.howie.pay.unionpayUtils;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -43,7 +43,8 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import static com.howie.pay.UnionpayUtils.SDKUtil.isEmpty;
+
+import static com.howie.pay.unionpayUtils.SDKUtil.isEmpty;
 public class CertUtil {
 	private static final Logger logger = LoggerFactory.getLogger(CertUtil.class);
 	/** 证书容器. */
